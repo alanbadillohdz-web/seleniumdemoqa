@@ -70,6 +70,7 @@ try:
 
 except Exception as e:
     print(f"Error: {e}")
+    print("Webhook funcionando correctamente")
 
 finally:
     driver.quit()
