@@ -70,7 +70,7 @@ try:
 
 except Exception as e:
     print(f"Error: {e}")
-    print("Webhook funcionando con vínculo GitHub activado")
+    print("Cambio real para forzar ejecución")
 
 finally:
     driver.quit()
