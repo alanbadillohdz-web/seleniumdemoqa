@@ -70,8 +70,7 @@ try:
 
 except Exception as e:
     print(f"Error: {e}")
-    print("Cambio real para forzar ejecución")
-    print("Prueba para que vea amorr")
+   print("Nueva ejecución para validar captura")
 
 finally:
     driver.quit()
