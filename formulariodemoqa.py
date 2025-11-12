@@ -70,7 +70,8 @@ try:
 
 except Exception as e:
     print(f"Error: {e}")
-   print("Nueva ejecución para validar captura")
+    print("Nueva ejecución para validar captura")
 
 finally:
+    driver.save_screenshot("captura_formulario.png")
     driver.quit()
